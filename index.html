@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Happy Birthday Jaanu 💙</title><link rel="stylesheet" href="style.css"></head>
+<body><canvas id="stars"></canvas><div id="toast"></div>
+<header class="top"><div class="brand">💙 Dreamland</div><button id="musicBtn">🎵 Music</button></header>
+<main>
+<section class="hero panel"><div class="badge">A little universe made for you</div><h1>Happy Birthday,<br><span id="name">My Jaanu</span> 🎂</h1><p id="typing">Today, every star is celebrating you...</p><div class="hero-actions"><button data-open="wish">✨ Make a Wish</button><button data-open="letter">💌 Open Love Letter</button><button id="surprise">🎁 Surprise Me</button></div><div class="orb">💙</div></section>
+<section class="stats grid"><div class="panel stat"><b id="days">365</b><span>reasons to smile</span></div><div class="panel stat"><b>∞</b><span>love for you</span></div><div class="panel stat"><b id="counter">0</b><span>virtual hugs sent</span></div></section>
+<section class="panel"><h2>🌷 Your Birthday Garden</h2><div class="garden" id="garden"></div><button id="grow">🌱 Grow a flower</button><button id="water">💧 Water the garden</button></section>
+<section class="panel"><h2>📸 Memory Galaxy</h2><p class="muted">Put rm1.jpg to rm10.jpg beside this file. Tap a card to open it.</p><div class="gallery" id="gallery"></div></section>
+<section class="panel"><h2>🎮 Little Love Games</h2><div class="game-grid"><button id="heartGame">💗 Catch 10 hearts</button><button id="quiz">🧠 Birthday quiz</button><button id="luck">🍀 Lucky message</button><button id="compliment">🌟 Compliment machine</button></div><p id="gameOutput" class="output">Choose a game, birthday star.</p></section>
+<section class="panel"><h2>💌 Notes From My Heart</h2><div class="notes" id="notes"></div><button id="newNote">➕ Add a tiny note</button></section>
+<section class="panel"><h2>🎂 Birthday Cake Studio</h2><div class="cake" id="cake">🎂</div><div class="cake-controls"><button id="candles">🕯️ Add candle</button><button id="blow">💨 Blow candles</button><button id="slice">🔪 Cut cake</button></div><p id="cakeText" class="output">Make your birthday cake magical.</p></section>
+<section class="panel"><h2>🌈 Choose Your Birthday Mood</h2><div class="moods"><button data-mood="romantic">💙 Romantic</button><button data-mood="cute">🐻 Cute</button><button data-mood="royal">👑 Royal</button><button data-mood="dreamy">🌙 Dreamy</button></div><p id="moodText" class="output">Your mood changes the atmosphere.</p></section>
+<section class="panel"><h2>📝 The Big Future Note</h2><p id="future">I wish your future is full of peaceful mornings, honest smiles, beautiful surprises, and dreams that come true. May you always feel loved, respected, safe and celebrated. Happy birthday, my favourite person. 💙</p><button id="editFuture">✍️ Personalize this note</button></section>
+<section class="panel"><h2>🌌 Wish Wall</h2><input id="wishInput" placeholder="Write a birthday wish..."><button id="postWish">📌 Pin wish</button><div id="wishWall"></div></section>
+<section class="panel"><h2>🎁 Final Surprise</h2><button id="finale">Open the sky</button><div id="finaleBox" class="hidden"></div></section>
+</main>
+<div id="modal" class="modal hidden"><div class="modal-card"><button class="close" id="close">✕</button><div id="modalContent"></div></div></div>
+<audio id="music" loop src="birthday.mp3"></audio><script src="script.js"></script></body></html>
